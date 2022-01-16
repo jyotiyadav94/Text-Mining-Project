@@ -12,7 +12,7 @@ The project is focused on exploring 3 text representation strategies:
 and comparing 3 classifiers:
 
 * Logistic Regression
-* Suuport Vector Machine
+* Suport Vector Machine
 * XGBoost
 
 
