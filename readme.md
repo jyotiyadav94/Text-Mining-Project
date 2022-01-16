@@ -1,6 +1,6 @@
 # Sentiment Analysis on Tweets
 
-As part of Data Mining, Text Mining and Big Data Analytics exam, I performed a sentiment analysis on a  supervised dataset of tweets [Twitter Hate Speech](https://www.kaggle.com/vkrahul/twitter-hate-speech).
+As part of Data Mining, Text Mining and Big Data Analytics exam, I performed a sentiment analysis on a  supervised dataset of tweets [Twitter Hate Speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech).
 
 The project is focused on exploring 3 text representation strategies:
 
@@ -13,7 +13,6 @@ and comparing 3 classifiers:
 
 * Logistic Regression
 * Suuport Vector Machine
-* Multinomial Naive Bayes
 * XGBoost
 
 
@@ -32,7 +31,6 @@ and comparing 3 classifiers:
 * Model Building: Sentiment Analysis
     * Logistic Regression
     * Support Vector Machine
-    * Multinomial Naive Bayes
     * XGBoost
 * Model Fine-tuning
 * Summary
