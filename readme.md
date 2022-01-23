@@ -22,7 +22,7 @@ and comparing 3 classifiers:
 * Tweets Preprocessing and Cleaning
     * Data Inspection
     * Data Cleaning
-* Story Generation and Visualization from Tweets
+* Visualization from Tweets
 * Extracting Features from Cleaned Tweets
     * Bag-of-Words
     * TF-IDF
