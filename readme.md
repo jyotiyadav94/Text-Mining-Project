@@ -2,15 +2,15 @@
 
 As part of Data Mining, Text Mining and Big Data Analytics exam, I performed a sentiment analysis on a  supervised dataset of tweets [Twitter Hate Speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech).
 
-The project is focused on exploring 3 text representation strategies:
+The objective of this task is to detect hate speechin tweets.For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is to classify racist or sexist tweets from other tweets.Formally, given a training sample of tweets and labels, where label '1' denotes the tweet is racist/sexist and label '0' denotes the tweet is not racist/sexist, your objective is to predict the labels on the test dataset.This project is focused on comparing different text representations and learning models on a classification task.
 
+The below 3 text representation strategies are:
 * Bag-of-Words (BoW)
 * TF-IDF
 * Word2Vec (w2v)
 * Doc2vec (d2v)
 
 and comparing 3 classifiers:
-
 * Logistic Regression
 * Suport Vector Machine
 * XGBoost
