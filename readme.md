@@ -50,7 +50,7 @@ I fine tuned XGBoost + Word2Vec with  tree-specific parameters such as max_depth
 ## Results
 --------------------------------------
 Here are the models F1-score on Validation set (please refer to section Models Comparison of the notebook for more details).
-![results](https://user-images.githubusercontent.com/72126242/150688726-fe1e413e-afbf-4a35-b314-3b2c57cadb0d.png)
+![resultslatest](https://user-images.githubusercontent.com/72126242/150693346-324ca094-37db-440e-a053-352ffdefc89b.png)
 
 ## Built With
 ---------------------------------
