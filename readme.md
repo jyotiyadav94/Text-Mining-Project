@@ -18,7 +18,7 @@ and comparing 3 classifiers:
 
 ## Project WorkFlow
 --------------------------------------------
-* Understand the Problem Statement
+* Import Libraries
 * Tweets Preprocessing and Cleaning
     * Data Inspection
     * Data Cleaning
