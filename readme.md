@@ -35,7 +35,7 @@ and comparing 3 classifiers:
 * Model Fine-tuning
 * Summary
 
-(Please refer to the [NoteBook](https://github.com/jyotiyadav94/Text-Mining-Project/blob/main/Text_Mining_Project%20(1).ipynb) for a more detailed description.)
+(Please refer to the [NoteBook](https://colab.research.google.com/drive/1zLdwPLBOTdNhVMXyFJ1oWxcAC-hytHjq#scrollTo=7uBIlZbCb3JW) for a more detailed description.)
 
 ## How to Run
 ----------
