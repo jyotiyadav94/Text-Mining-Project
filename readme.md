@@ -1,29 +1,28 @@
 # Sentiment Analysis on Tweets
 
-As part of Data Mining, Text Mining and Big Data Analytics exam, I performed a sentiment analysis on a  supervised dataset of tweets [Twitter Hate Speech](https://www.kaggle.com/vkrahul/twitter-hate-speech).
+As part of Data Mining, Text Mining and Big Data Analytics exam, I performed a sentiment analysis on a  supervised dataset of tweets [Twitter Hate Speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech).
 
-The project is focused on exploring 3 text representation strategies:
+The objective of this task is to detect hate speechin tweets.For the sake of simplicity, we say a tweet contains hate speech if it has a racist or sexist sentiment associated with it. So, the task is to classify racist or sexist tweets from other tweets.Formally, given a training sample of tweets and labels, where label '1' denotes the tweet is racist/sexist and label '0' denotes the tweet is not racist/sexist, your objective is to predict the labels on the test dataset.This project is focused on comparing different text representations and learning models on a classification task.
 
+The below 3 text representation strategies are:
 * Bag-of-Words (BoW)
 * TF-IDF
 * Word2Vec (w2v)
 * Doc2vec (d2v)
 
 and comparing 3 classifiers:
-
 * Logistic Regression
-* Suuport Vector Machine
-* Multinomial Naive Bayes
+* Suport Vector Machine
 * XGBoost
 
 
 ## Project WorkFlow
 --------------------------------------------
-* Understand the Problem Statement
+* Import Libraries
 * Tweets Preprocessing and Cleaning
     * Data Inspection
     * Data Cleaning
-* Story Generation and Visualization from Tweets
+* Visualization from Tweets
 * Extracting Features from Cleaned Tweets
     * Bag-of-Words
     * TF-IDF
@@ -32,12 +31,11 @@ and comparing 3 classifiers:
 * Model Building: Sentiment Analysis
     * Logistic Regression
     * Support Vector Machine
-    * Multinomial Naive Bayes
     * XGBoost
 * Model Fine-tuning
 * Summary
 
-(Please refer to the [NoteBook](https://github.com/jyotiyadav94/Text-Mining-Project/blob/main/Text_Mining_Project%20(1).ipynb) for a more detailed description.)
+(Please refer to the [NoteBook](https://colab.research.google.com/drive/1zLdwPLBOTdNhVMXyFJ1oWxcAC-hytHjq#scrollTo=7uBIlZbCb3JW) for a more detailed description.)
 
 ## How to Run
 ----------
@@ -51,13 +49,8 @@ I fine tuned XGBoost + Word2Vec with  tree-specific parameters such as max_depth
 
 ## Results
 --------------------------------------
-Here are the models F1-score on Validation set (please refer to section Models Comparison of the notebook for more details).
-
-
-
-
-
-Here are the models F1-score on test set (please refer to section Models Comparison of the notebook for more details).
+Here are the models F1-score on Validation set.
+![resultslatest](https://user-images.githubusercontent.com/72126242/150693346-324ca094-37db-440e-a053-352ffdefc89b.png)
 
 ## Built With
 ---------------------------------
