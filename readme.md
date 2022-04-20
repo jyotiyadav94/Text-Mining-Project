@@ -39,7 +39,7 @@ and comparing 3 classifiers:
 
 ## How to Run
 ----------
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zLdwPLBOTdNhVMXyFJ1oWxcAC-hytHjq#scrollTo=-jQykcI3coHp)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GD3Nsl_l9LXJhg2FmzUsqNWQACoD6-Ti?usp=sharing)
 
 
 ## Models Training
